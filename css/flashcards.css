@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family:"Verdana, Helvetica, Arial";	
+	margin:0;
+	padding:0;	
+}
+
+/* 
+   headmast calculation: (10+30+5) = 45px
+   card width calculation: (15+1+10+188+10+1+15) *5 = 1200px
+   card height calculation: (5+1+10+175+10+1+5) = 207 *4 = 828px
+   the dimensions of container are 1200px by 874px
+*/
+
+.card { /* default card styles */
+	height:20.022883295195%; /* 175px; */
+	min-height:175px;
+	width:15.666666666667%; /* 188px; */
+	border:1px solid black;
+	margin:.572082379863% 1.25% .572082379863% 1.25%; /* 5px 15px 5px 15px; */
+	padding:1.144164759725% .833333333333% 1.144164759725% .833333333333%; /* 10px; */	
+	float:left;
+	background-color:#000000; /*temporary color*/	
+}
+
+/* A css class that represents a permanent match */
+.matched {
+}
+
+.card.flip {	
+}
+
+/* 45px total */
+.headmast {
+	margin:0;
+	height:3.432494279176%;
+	max-height:30px;
+	width:100%;
+	max-width:1200px;
+	padding:1.144164759725% 0% .572082379863% 0%; /* 10px 0px 5px 0px; */
+}
+
+#container {
+	margin: 0 auto;
+	width:100%;
+	max-width:1200px;
+	height:100%;
+	max-height:874px;
+}
+
+.clear{
+	clear:both;
+}
+
+.card.flip.Coral{background-color:#FF7F50;}
+.card.flip.Crimson{background-color:#DC143C;}
+.card.flip.Magenta{background-color:#FF00FF;}
+.card.flip.OrangeRed{background-color:#FF4500;}
+.card.flip.Olive{background-color:#808000;}
+.card.flip.YellowGreen{background-color:#9ACD32;}
+.card.flip.Teal{background-color:#008080;}
+.card.flip.SlateBlue{background-color:#6A5ACD;}
+.card.flip.Pink{background-color:#FFC0CB;}
+.card.flip.Plum{background-color:#DDA0DD;}
+.card.flip.Coral{background-color:#FF7F50;}
+.card.flip.Crimson{background-color:#DC143C;}
+.card.flip.Magenta{background-color:#FF00FF;}
+.card.flip.OrangeRed{background-color:#FF4500;}
+.card.flip.Olive{background-color:#808000;}
+.card.flip.YellowGreen{background-color:#9ACD32;}
+.card.flip.Teal{background-color:#008080;}
+.card.flip.SlateBlue{background-color:#6A5ACD;}
+.card.flip.Pink{background-color:#FFC0CB;}
+.card.flip.Plum{background-color:#DDA0DD;}
